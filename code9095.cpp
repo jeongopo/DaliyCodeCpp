@@ -20,4 +20,5 @@ int main() {
 	for (i = 0; i < t; i++) {
 		std::cout << ret[i] << "\n";
 	}
+	
 }

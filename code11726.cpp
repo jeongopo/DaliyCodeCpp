@@ -1,7 +1,4 @@
 #include <iostream>
-#include <array>
-
-int cArr[1001] = { 0, };
 
 int main() {
 	int n = 0;

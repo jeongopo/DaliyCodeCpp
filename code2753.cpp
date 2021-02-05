@@ -17,6 +17,7 @@ int main() {
 		else {
 			std::cout << "윤년 아님\n";
 		}
+		
 	}
 
 

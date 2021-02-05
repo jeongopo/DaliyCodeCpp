@@ -3,6 +3,7 @@ int main() {
 	//9개의 배열 값 중 최대값 구하기
 	int array[10];
 	int i = 0;
+	
 	for (i = 0; i < 9; i++) {
 		std::cin >> array[i];
 		if (array[i] > 100 || array[i] < 1) i--;

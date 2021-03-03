@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 #define MAXSIZE 100001
-#include <algorithm>;
-#include <vector>;
+#include <algorithm>
+#include <vector>
 
 class Location {
 public:

@@ -33,9 +33,6 @@ void solution() {
 				arr1.pop();
 			}
 		}
-		
-		 
-
 	}
 }
 

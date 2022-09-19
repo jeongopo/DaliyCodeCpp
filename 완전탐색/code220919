@@ -1,0 +1,24 @@
+/*
+220919
+Programmers 최소직사각형
+https://school.programmers.co.kr/learn/courses/30/lessons/86491?language=cpp
+*/
+
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(vector<vector<int>> sizes) {
+    int answer = 0;
+    int w = 0; //작은 값
+    int h = 0; //큰 값
+    
+    for(int i=0;i<sizes.size();i++){
+        w = max(w,min(sizes[i].at(0),sizes[i].at(1)));
+        h = max(h,max(sizes[i].at(0),sizes[i].at(1))); 
+    }
+    answer = w*h;
+        
+    return answer;
+}
